@@ -1,0 +1,23 @@
+{
+  "name": "harmony-jsx-3d-starter",
+  "version": "1.0.0",
+  "description": "A starter project to work with ES6, JSX, Babel, WebPack and Three.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --content-base ./public --port 3000"
+  },
+  "author": "Ali Chamas",
+  "license": "GPL",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react-dom": "^0.14.7",
+    "three": "^0.78.0"
+  }
+}
